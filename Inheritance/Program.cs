@@ -28,6 +28,12 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+            var birds1 = new Birds() { BirdType = "Conure", BirdColor = "Orange", BeakType = "Curved", FoodType = "Large seeds", Biome = "woods", };
+            birds1.MyBird();
+
+            Console.WriteLine();
+            var Rep1 = new Reptile() { Type = "Snake", Eats = "mice", Size = "long", IdealTemp = 80, AvrageAge = 16, CanKillYou = true, Biome = "Unknown " };
+            Rep1.MyReps();
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
